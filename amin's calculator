@@ -1,0 +1,26 @@
+print("in the name of god\nhello user\n welcom to amin's calculator")
+ada = input("please write your first number :")
+user_1 = float(ada)
+doing = input("please write (* or / or + or -) :")
+ada_2 = input("please write your second number :")
+user_2 = float(ada_2)
+
+#**************************************************************************
+
+plus = user_1 + user_2
+substraction =  user_1 - user_2
+multiplication = user_1 * user_2
+division = user_1 / user_2
+
+               
+if doing == "*" :
+    print(f"the resoult is : {multiplication}")
+if doing == "/" :
+    print(f"the resoult is : {division}")
+if doing == "+" :
+    print(f"the resoult is : {plus}")
+if doing == "-" :
+    print(f"the resoult is : {substraction}")
+else :
+    print("please check the information you have enterd")                
+
